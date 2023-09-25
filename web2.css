@@ -1,0 +1,36 @@
+body {
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.food-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.food-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.food-item > img {
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+}

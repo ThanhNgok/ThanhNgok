@@ -1,0 +1,53 @@
+body {
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+input,
+textarea {
+  width: 500px;
+  border-radius: 5px;
+  resize: none;
+}
+
+h1 {
+  text-align: center;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+}
+label {
+  display: block;
+  width: 100px;
+}
+.input {
+  display: flex;
+
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.content {
+  height: 50px;
+}
+button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-left: 40%;
+}
